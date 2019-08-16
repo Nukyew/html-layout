@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/*
 .header {
     background: #444444;;
     height: 150px;
@@ -79,4 +80,40 @@ table {
 .empty-block {
     height: 400px;
     width: auto;
+}
+*/
+
+.header {
+    background: #444444;;
+    height: 150px;
+    width: auto;
+}
+
+.left-column {
+    background: #D8D8D8;
+    width: 15%;
+    height: 500px;
+    float: left;
+}
+
+.right-column {
+    background: #D8D8D8;
+    width: 15%;
+    height: 500px;
+    float: right;
+}
+
+.main-section {
+    height: 500px;
+    width: 100%;
+}
+
+.empty-space {
+    height: 400px;
+    width: 100%;
+}
+.footer {
+    background: #222222;
+    width: 100%;
+    height: 100px;
 }
